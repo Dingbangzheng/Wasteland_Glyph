@@ -1,0 +1,47 @@
+# Build output
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.dll
+*.so
+*.dylib
+compile_commands.json
+
+# Conan / vcpkg / fetched dependency droppings
+conan/
+vcpkg_installed/
+_deps/
+third_party/*/build/
+
+# Runtime output
+saves/
+logs/
+*.log
+
+# Local scratch
+_probe/
+.tmp/
+*.tmp
+scratch/
+notes.local.md
+
+# Editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*~
+.DS_Store
+Thumbs.db

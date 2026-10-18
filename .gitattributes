@@ -1,0 +1,18 @@
+# Copyright (C) 2026 Wasteland Glyph contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Keep line endings stable across the Windows/Linux split: text files are LF in
+# the repository, and only Windows-native formats get CRLF.
+
+* text=auto eol=lf
+
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.ico binary
+*.exe binary
+*.lib binary
